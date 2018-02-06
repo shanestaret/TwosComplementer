@@ -1,4 +1,4 @@
-public class TwosComplement0203Edit {
+public class TwosComplementer {
     private static LogicGate notGate = new LogicGate(0); //NOT gate that we use to perform one's complement on all binary digits
     private static LogicGate andGate = new LogicGate(1); //XOR gate that we use to calculate the "sum" part of two's complement
     private static LogicGate xorGate = new LogicGate(3); //AND gate that we use to calculate the "carry" part of two's complement
